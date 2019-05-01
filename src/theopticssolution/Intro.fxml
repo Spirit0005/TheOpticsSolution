@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="561.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="theopticssolution.Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" smooth="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@../images/bouncing-bokeh-transparent-circles-on-the-grey-background-balls-falling-down-and-bouncing-up-to-a-full-stop_4uxrbpuv3l__F0000.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img1" fitHeight="114.0" fitWidth="118.0" layoutX="-240.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icon.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="b1" buttonType="RAISED" layoutX="361.0" layoutY="387.0" onMouseClicked="#mouseClickStart" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" opacity="0.0" prefHeight="49.0" prefWidth="118.0" ripplerFill="#348ceb" style="-fx-background-color: #67aee4; -fx-background-radius: 0 25 0 25;" text="Get Started" textFill="#f8f8f8">
+         <font>
+            <Font name="Britannic Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="l3" layoutX="258.0" layoutY="300.0" opacity="0.0" prefHeight="21.0" prefWidth="323.0" text="Hold the vision ,Trust the process..">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow color="#807a7a" />
+         </effect></Label>
+      <Label fx:id="l1" layoutX="242.0" layoutY="116.0" text="The Optics" textFill="WHITE">
+         <font>
+            <Font name="Showcard Gothic" size="42.0" />
+         </font>
+         <effect>
+            <DropShadow color="#4ca3eb" height="18.03" radius="9.2575" spread="0.62" />
+         </effect>
+      </Label>
+      <Label fx:id="l2" layoutX="359.0" layoutY="159.0" text="Solution" textFill="WHITE">
+         <effect>
+            <DropShadow color="#4ca3eb" height="18.03" radius="9.2575" spread="0.62" />
+         </effect>
+         <font>
+            <Font name="Showcard Gothic" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

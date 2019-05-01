@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="theopticssolution.HomeController">
+   <children>
+      <ImageView fitHeight="609.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/white-wallpaper-pattern.jpg" />
+         </image></ImageView>
+      <Label layoutX="101.0" layoutY="42.0" text="Solution" textFill="WHITE">
+         <effect>
+            <DropShadow color="#4ca3eb" height="18.03" radius="9.2575" spread="0.62" />
+         </effect>
+         <font>
+            <Font name="Showcard Gothic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="-6.0" prefHeight="65.0" prefWidth="241.0" text="The Optics" textFill="WHITE">
+         <effect>
+            <DropShadow color="#4ca3eb" height="18.03" radius="9.2575" spread="0.62" />
+         </effect>
+         <font>
+            <Font name="Showcard Gothic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="103.0" layoutX="5.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="703.0" layoutY="540.0" onMouseClicked="#exit" prefHeight="35.0" prefWidth="54.0" text="Exit" textFill="#1361a1">
+         <font>
+            <Font name="Forte" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="216.0" fitWidth="299.0" layoutX="458.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="l1" layoutX="262.0" layoutY="236.0" prefHeight="10.0" prefWidth="277.0" text="Please select patient's eye image">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="b1" buttonType="RAISED" layoutX="317.0" layoutY="283.0" onAction="#uploadImage" prefHeight="49.0" prefWidth="167.0" ripplerFill="#348ceb" style="-fx-background-color: #67aee4; -fx-background-radius: 25 25 25 25;" text="Upload image" textFill="#f8f8f8">
+         <font>
+            <Font name="Britannic Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="imageView1" fitHeight="216.0" fitWidth="299.0" layoutX="458.0" layoutY="224.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
